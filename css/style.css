@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -55,12 +55,12 @@ img {
 
 .header-nav {
   display: flex;
-  flex-grow: 1;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -70,7 +70,7 @@ img {
   margin-right: 76px;
 }
 .header-logo-studio {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -94,6 +94,7 @@ img {
   letter-spacing: 0.32px;
   color: #2e2f42;
   padding: 24px 0 24px;
+  display: block;
 }
 
 .header-menu-link:focus {
@@ -272,7 +273,6 @@ button {
 }
 
 .team-menu-img {
-  padding-bottom: 32px;
 }
 
 .team-menu-subtitle {
@@ -291,7 +291,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
   text-align: center;
 }
 
@@ -309,7 +308,6 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .portfolio-menu {
@@ -319,7 +317,6 @@ button {
 }
 .portfolio-item {
   width: calc((100% - 2 * 24px) / 3);
-  display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
@@ -331,10 +328,7 @@ button {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
-  width: 360px;
-  height: 120px;
 }
-
 .portfolio-img {
 }
 .portfolio-subtitle {
@@ -371,8 +365,6 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  padding-top: 16px;
-  padding-bottom: 100px;
 }
 
 .footer-logo-studio {
@@ -385,7 +377,7 @@ button {
 }
 
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -394,7 +386,7 @@ button {
   color: #4d5ae5;
 }
 .footer-logo-studio {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
